@@ -1,0 +1,122 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="MQt74QSOHy3pPoojo_Yx">
+    <mxGraphModel dx="761" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="АЛУ&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="120" x="170" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="уу" vertex="1">
+          <mxGeometry height="110" width="120" x="170" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" value="РОН&lt;div&gt;(СОЗУ)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="390" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" value="указатель сетка" vertex="1">
+          <mxGeometry height="45" width="120" x="390" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" value="рег.адресса памяти" vertex="1">
+          <mxGeometry height="45" width="120" x="390" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" value="рег.счетчик команд" vertex="1">
+          <mxGeometry height="45" width="120" x="390" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" value="КЭШ L1" vertex="1">
+          <mxGeometry height="100" width="120" x="600" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="интерфейс связи с ОЗУ" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="интерфейс связи с ВУ" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-14" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.1333" as="geometry">
+            <Array as="points">
+              <mxPoint x="229.5" y="260" />
+            </Array>
+            <mxPoint x="229.5" y="300" as="sourcePoint" />
+            <mxPoint x="229.5" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-15" edge="1" parent="1" source="mm3KFBUQgo9G-aQ_fbv4-6" style="endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mm3KFBUQgo9G-aQ_fbv4-7" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.1828" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="360" />
+              <mxPoint x="330" y="230" />
+            </Array>
+            <mxPoint x="300" y="360" as="sourcePoint" />
+            <mxPoint x="350" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-16" edge="1" parent="1" source="mm3KFBUQgo9G-aQ_fbv4-5" style="endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.992;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;" target="mm3KFBUQgo9G-aQ_fbv4-7" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1351" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="165" />
+              <mxPoint x="350" y="205" />
+            </Array>
+            <mxPoint x="300" y="165" as="sourcePoint" />
+            <mxPoint x="370" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-18" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.3191" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="410" />
+              <mxPoint x="330" y="410" />
+              <mxPoint x="330" y="370" />
+              <mxPoint x="360" y="370" />
+            </Array>
+            <mxPoint x="380" y="410" as="sourcePoint" />
+            <mxPoint x="380" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-19" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="370" as="sourcePoint" />
+            <mxPoint x="590" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-20" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.1309" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="412.5" />
+              <mxPoint x="530" y="412.5" />
+              <mxPoint x="520" y="412.5" />
+              <mxPoint x="550" y="412.5" />
+              <mxPoint x="550" y="382.5" />
+              <mxPoint x="550" y="322.5" />
+            </Array>
+            <mxPoint x="510" y="412.5" as="sourcePoint" />
+            <mxPoint x="510" y="322.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-21" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="659.5" y="325" as="sourcePoint" />
+            <mxPoint x="659.5" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ОЗУ" vertex="1">
+          <mxGeometry height="35" width="30" x="840" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ВУ" vertex="1">
+          <mxGeometry height="35" width="30" x="840" y="422.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-24" edge="1" parent="1" source="mm3KFBUQgo9G-aQ_fbv4-12" style="endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="mm3KFBUQgo9G-aQ_fbv4-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="750" y="387.5" as="sourcePoint" />
+            <mxPoint x="800" y="337.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3KFBUQgo9G-aQ_fbv4-25" edge="1" parent="1" source="mm3KFBUQgo9G-aQ_fbv4-13" style="endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="mm3KFBUQgo9G-aQ_fbv4-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="760" y="460" as="sourcePoint" />
+            <mxPoint x="810" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
